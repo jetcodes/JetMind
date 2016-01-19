@@ -45,3 +45,22 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# qt directories
+.moc
+.obj
+.qrc
+.ui
+build-jetmind
+Debug
+Release
+GeneratedFiles
+
+# qt files
+*.user
+moc_*
+*.ncb
+*.exp
+*.dll
+*.lib
+*.suo

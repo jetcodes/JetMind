@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CMindMapDtNewTool</class>
+ <widget class="CDiagramTool" name="CMindMapDtNewTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>132</width>
+    <height>34</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>New Topic</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0,1">
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <property name="leftMargin">
+    <number>2</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="QToolButton" name="m_btnInsertBefore">
+     <property name="toolTip">
+      <string>Insert Topic Before</string>
+     </property>
+     <property name="text">
+      <string>Insert Before</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/node-insert-previous.png</normaloff>:/res/icons/node-insert-previous.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnInsertAfter">
+     <property name="toolTip">
+      <string>Insert Topic After</string>
+     </property>
+     <property name="text">
+      <string>Insert After</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/node-insert-next.png</normaloff>:/res/icons/node-insert-next.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnInsertParent">
+     <property name="toolTip">
+      <string>Insert Parent Topic</string>
+     </property>
+     <property name="text">
+      <string>Insert Parent</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/node-insert-parent.png</normaloff>:/res/icons/node-insert-parent.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnInsertChild">
+     <property name="toolTip">
+      <string>Insert Child Topic</string>
+     </property>
+     <property name="text">
+      <string>Insert Child</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/node-insert-child.png</normaloff>:/res/icons/node-insert-child.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CDiagramTool</class>
+   <extends>QWidget</extends>
+   <header>core/CDiagramWidget</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../res/mac/res.qrc"/>
+  <include location="../../res/mac/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

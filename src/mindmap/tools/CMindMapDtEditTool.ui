@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CMindMapDtEditTool</class>
+ <widget class="CDiagramTool" name="CMindMapDtEditTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>224</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Editing</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0,0,0,1">
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QToolButton" name="m_btnCut">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>Cut</string>
+     </property>
+     <property name="text">
+      <string>Cut</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/edit-cut.png</normaloff>:/res/icons/edit-cut.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnCopy">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>Copy</string>
+     </property>
+     <property name="text">
+      <string>Copy</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/edit-copy.png</normaloff>:/res/icons/edit-copy.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnPaste">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>Paste</string>
+     </property>
+     <property name="text">
+      <string>Paste</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/edit-paste.png</normaloff>:/res/icons/edit-paste.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnDelete">
+     <property name="toolTip">
+      <string>Delete</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/edit-delete.png</normaloff>:/res/icons/edit-delete.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnUndo">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>Undo</string>
+     </property>
+     <property name="text">
+      <string>Undo</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/edit-undo.png</normaloff>:/res/icons/edit-undo.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnRedo">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>Redo</string>
+     </property>
+     <property name="text">
+      <string>Redo</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/edit-redo.png</normaloff>:/res/icons/edit-redo.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CDiagramTool</class>
+   <extends>QWidget</extends>
+   <header>core/CDiagramWidget</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../res/mac/res.qrc"/>
+  <include location="../../res/mac/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

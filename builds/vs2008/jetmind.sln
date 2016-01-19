@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gui", "gui.vcproj", "{DB92A56D-DBDB-41E1-8DB9-5DB591331FCF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80971505-92FD-40AD-B3DC-EA429547BBA6} = {80971505-92FD-40AD-B3DC-EA429547BBA6}
+		{CB472854-E026-41D7-A619-EB64B9FBCA71} = {CB472854-E026-41D7-A619-EB64B9FBCA71}
+		{E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD} = {E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD}
+		{F7852398-1B04-40CE-9D6F-97C1FF025377} = {F7852398-1B04-40CE-9D6F-97C1FF025377}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "core.vcproj", "{F7852398-1B04-40CE-9D6F-97C1FF025377}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD} = {E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "widgets", "widgets.vcproj", "{80971505-92FD-40AD-B3DC-EA429547BBA6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7852398-1B04-40CE-9D6F-97C1FF025377} = {F7852398-1B04-40CE-9D6F-97C1FF025377}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quazip", "quazip.vcproj", "{E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mindstorm", "mindstorm.vcproj", "{CB472854-E026-41D7-A619-EB64B9FBCA71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80971505-92FD-40AD-B3DC-EA429547BBA6} = {80971505-92FD-40AD-B3DC-EA429547BBA6}
+		{E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD} = {E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD}
+		{F7852398-1B04-40CE-9D6F-97C1FF025377} = {F7852398-1B04-40CE-9D6F-97C1FF025377}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB92A56D-DBDB-41E1-8DB9-5DB591331FCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB92A56D-DBDB-41E1-8DB9-5DB591331FCF}.Debug|Win32.Build.0 = Debug|Win32
+		{DB92A56D-DBDB-41E1-8DB9-5DB591331FCF}.Release|Win32.ActiveCfg = Release|Win32
+		{DB92A56D-DBDB-41E1-8DB9-5DB591331FCF}.Release|Win32.Build.0 = Release|Win32
+		{F7852398-1B04-40CE-9D6F-97C1FF025377}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7852398-1B04-40CE-9D6F-97C1FF025377}.Debug|Win32.Build.0 = Debug|Win32
+		{F7852398-1B04-40CE-9D6F-97C1FF025377}.Release|Win32.ActiveCfg = Release|Win32
+		{F7852398-1B04-40CE-9D6F-97C1FF025377}.Release|Win32.Build.0 = Release|Win32
+		{80971505-92FD-40AD-B3DC-EA429547BBA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80971505-92FD-40AD-B3DC-EA429547BBA6}.Debug|Win32.Build.0 = Debug|Win32
+		{80971505-92FD-40AD-B3DC-EA429547BBA6}.Release|Win32.ActiveCfg = Release|Win32
+		{80971505-92FD-40AD-B3DC-EA429547BBA6}.Release|Win32.Build.0 = Release|Win32
+		{E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD}.Debug|Win32.Build.0 = Debug|Win32
+		{E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD}.Release|Win32.ActiveCfg = Release|Win32
+		{E4AC5F56-B711-4F0E-BC83-CDE8B6CD53AD}.Release|Win32.Build.0 = Release|Win32
+		{CB472854-E026-41D7-A619-EB64B9FBCA71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB472854-E026-41D7-A619-EB64B9FBCA71}.Debug|Win32.Build.0 = Debug|Win32
+		{CB472854-E026-41D7-A619-EB64B9FBCA71}.Release|Win32.ActiveCfg = Release|Win32
+		{CB472854-E026-41D7-A619-EB64B9FBCA71}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		QtVersion = 4.8.6
+	EndGlobalSection
+EndGlobal

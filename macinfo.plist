@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>ForAppStore</key>
+	<string>yes</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleIconFile</key>
+	<string>logo.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Created by RecMind</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>RecMind</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.recmind</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright(c) 2014 by RecMind. All Rights Reserved.</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+        		<key>CFBundleTypeExtensions</key>
+        		<array>
+        			<string>rdx</string>
+        		</array>
+        		<key>CFBundleTypeIconFile</key>
+        		<string>file-icon.png</string>
+        		<key>CFBundleTypeName</key>
+        		<string>RecMind File</string>
+        		<key>CFBundleTypeRole</key>
+        		<string>Editor</string>
+    		</dict>
+    	</array>
+</dict>
+</plist>

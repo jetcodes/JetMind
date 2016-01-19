@@ -1,0 +1,134 @@
+<template version="1.0">
+ <type>Flow Chart</type>
+ <name>Fashion</name>
+ <anthor>Koder Chen</anthor>
+ <created>2012-02-23 15:55:46</created>
+ <updated>2012-02-23 15:55:46</updated>
+ <revision>0</revision>
+ <items>
+  <item category="Arrows" id="0" name="Down Arrow">
+   <property type="QString" name="objectName">AAAACgD/////</property>
+   <property type="QGraphicsObject*" name="parent">AAAAAAH/////</property>
+   <property type="qreal" name="opacity">AAAABgA/8AAAAAAAAA==</property>
+   <property type="bool" name="enabled">AAAAAQAB</property>
+   <property type="bool" name="visible">AAAAAQAB</property>
+   <property type="QPointF" name="pos">AAAAGgDAsx4AAAAAAMCzIgAAAAAA</property>
+   <property type="qreal" name="x">AAAABgDAsx4AAAAAAA==</property>
+   <property type="qreal" name="y">AAAABgDAsyIAAAAAAA==</property>
+   <property type="qreal" name="z">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="rotation">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="scale">AAAABgA/8AAAAAAAAA==</property>
+   <property type="QPointF" name="transformOriginPoint">AAAAGgAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QGraphicsEffect*" name="effect">AAAAAAH/////</property>
+   <property type="QDeclarativeListProperty&lt;QGraphicsObject>" name="children">AAAAAAH/////</property>
+   <property type="qreal" name="width">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="height">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="width">AAAABgBAWQAAAAAAAA==</property>
+   <property type="qreal" name="height">AAAABgBAWQAAAAAAAA==</property>
+   <property type="bool" name="resizable">AAAAAQAB</property>
+   <property type="bool" name="rotatable">AAAAAQAB</property>
+   <property type="bool" name="keepSizeRatio">AAAAAQAA</property>
+   <property type="QPen" name="pen">AAAATQAAUQA/8AAAAAAAAAEB//8AAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QPen" name="stroke">AAAATQAAUQBAGAAAAAAAAAEBKCgAAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QBrush" name="brush">AAAAQgABAf//////////AAA/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAA=</property>
+   <property type="QFont" name="font">AAAAQAAAAAAKAEEAcgBpAGEAbEAiAAAAAAAA/////wUBADIQAGQBAAAAAAAAAAA=</property>
+   <property type="bool" name="effectEnabled">AAAAAQAA</property>
+   <property type="QColor" name="textColor">AAAAQwAB//8AAAAAAAAAAA==</property>
+   <property type="Qt::AlignmentFlag" name="textAlign">AAAAAAH/////</property>
+   <property type="QString" name="plainText">AAAACgAAAAAA</property>
+   <property type="QString" name="html">AAAACgAAAAOkADwAIQBEAE8AQwBUAFkAUABFACAASABUAE0ATAAgAFAAVQBCAEwASQBDACAAIgAtAC8ALwBXADMAQwAvAC8ARABUAEQAIABIAFQATQBMACAANAAuADAALwAvAEUATgAiACAAIgBoAHQAdABwADoALwAvAHcAdwB3AC4AdwAzAC4AbwByAGcALwBUAFIALwBSAEUAQwAtAGgAdABtAGwANAAwAC8AcwB0AHIAaQBjAHQALgBkAHQAZAAiAD4ACgA8AGgAdABtAGwAPgA8AGgAZQBhAGQAPgA8AG0AZQB0AGEAIABuAGEAbQBlAD0AIgBxAHIAaQBjAGgAdABlAHgAdAAiACAAYwBvAG4AdABlAG4AdAA9ACIAMQAiACAALwA+ADwAcwB0AHkAbABlACAAdAB5AHAAZQA9ACIAdABlAHgAdAAvAGMAcwBzACIAPgAKAHAALAAgAGwAaQAgAHsAIAB3AGgAaQB0AGUALQBzAHAAYQBjAGUAOgAgAHAAcgBlAC0AdwByAGEAcAA7ACAAfQAKADwALwBzAHQAeQBsAGUAPgA8AC8AaABlAGEAZAA+ADwAYgBvAGQAeQAgAHMAdAB5AGwAZQA9ACIAIABmAG8AbgB0AC0AZgBhAG0AaQBsAHkAOgAnAEEAcgBpAGEAbAAnADsAIABmAG8AbgB0AC0AcwBpAHoAZQA6ADkAcAB0ADsAIABmAG8AbgB0AC0AdwBlAGkAZwBoAHQAOgA0ADAAMAA7ACAAZgBvAG4AdAAtAHMAdAB5AGwAZQA6AG4AbwByAG0AYQBsADsAIgA+AAoAPABwACAAcwB0AHkAbABlAD0AIgAtAHEAdAAtAHAAYQByAGEAZwByAGEAcABoAC0AdAB5AHAAZQA6AGUAbQBwAHQAeQA7ACAAbQBhAHIAZwBpAG4ALQB0AG8AcAA6ADAAcAB4ADsAIABtAGEAcgBnAGkAbgAtAGIAbwB0AHQAbwBtADoAMABwAHgAOwAgAG0AYQByAGcAaQBuAC0AbABlAGYAdAA6ADAAcAB4ADsAIABtAGEAcgBnAGkAbgAtAHIAaQBnAGgAdAA6ADAAcAB4ADsAIAAtAHEAdAAtAGIAbABvAGMAawAtAGkAbgBkAGUAbgB0ADoAMAA7ACAAdABlAHgAdAAtAGkAbgBkAGUAbgB0ADoAMABwAHgAOwAiAD4APAAvAHAAPgA8AC8AYgBvAGQAeQA+ADwALwBoAHQAbQBsAD4=</property>
+   <property type="bool" name="connectable">AAAAAQAB</property>
+   <property type="bool" name="closed">AAAAAQAN</property>
+   <ext/>
+  </item>
+  <item category="Arrows" id="1" name="Down Arrow">
+   <property type="QString" name="objectName">AAAACgD/////</property>
+   <property type="QGraphicsObject*" name="parent">AAAAAAH/////</property>
+   <property type="qreal" name="opacity">AAAABgA/8AAAAAAAAA==</property>
+   <property type="bool" name="enabled">AAAAAQAB</property>
+   <property type="bool" name="visible">AAAAAQAB</property>
+   <property type="QPointF" name="pos">AAAAGgDAsdIAAAAAAMCyywAAAAAA</property>
+   <property type="qreal" name="x">AAAABgDAsdIAAAAAAA==</property>
+   <property type="qreal" name="y">AAAABgDAsssAAAAAAA==</property>
+   <property type="qreal" name="z">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="rotation">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="scale">AAAABgA/8AAAAAAAAA==</property>
+   <property type="QPointF" name="transformOriginPoint">AAAAGgAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QGraphicsEffect*" name="effect">AAAAAAH/////</property>
+   <property type="QDeclarativeListProperty&lt;QGraphicsObject>" name="children">AAAAAAH/////</property>
+   <property type="qreal" name="width">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="height">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="width">AAAABgBAWQAAAAAAAA==</property>
+   <property type="qreal" name="height">AAAABgBAWQAAAAAAAA==</property>
+   <property type="bool" name="resizable">AAAAAQAB</property>
+   <property type="bool" name="rotatable">AAAAAQAB</property>
+   <property type="bool" name="keepSizeRatio">AAAAAQAA</property>
+   <property type="QPen" name="pen">AAAATQAAUQA/8AAAAAAAAAEB//8AAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QPen" name="stroke">AAAATQAAUQBAGAAAAAAAAAEBKCgAAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QBrush" name="brush">AAAAQgABAf//////////AAA/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAA=</property>
+   <property type="QFont" name="font">AAAAQAAAAAAKAEEAcgBpAGEAbEAiAAAAAAAA/////wUBADIQAGQBAAAAAAAAAAA=</property>
+   <property type="bool" name="effectEnabled">AAAAAQAA</property>
+   <property type="QColor" name="textColor">AAAAQwAB//8AAAAAAAAAAA==</property>
+   <property type="Qt::AlignmentFlag" name="textAlign">AAAAAAH/////</property>
+   <property type="QString" name="plainText">AAAACgAAAAAA</property>
+   <property type="QString" name="html">AAAACgAAAAOkADwAIQBEAE8AQwBUAFkAUABFACAASABUAE0ATAAgAFAAVQBCAEwASQBDACAAIgAtAC8ALwBXADMAQwAvAC8ARABUAEQAIABIAFQATQBMACAANAAuADAALwAvAEUATgAiACAAIgBoAHQAdABwADoALwAvAHcAdwB3AC4AdwAzAC4AbwByAGcALwBUAFIALwBSAEUAQwAtAGgAdABtAGwANAAwAC8AcwB0AHIAaQBjAHQALgBkAHQAZAAiAD4ACgA8AGgAdABtAGwAPgA8AGgAZQBhAGQAPgA8AG0AZQB0AGEAIABuAGEAbQBlAD0AIgBxAHIAaQBjAGgAdABlAHgAdAAiACAAYwBvAG4AdABlAG4AdAA9ACIAMQAiACAALwA+ADwAcwB0AHkAbABlACAAdAB5AHAAZQA9ACIAdABlAHgAdAAvAGMAcwBzACIAPgAKAHAALAAgAGwAaQAgAHsAIAB3AGgAaQB0AGUALQBzAHAAYQBjAGUAOgAgAHAAcgBlAC0AdwByAGEAcAA7ACAAfQAKADwALwBzAHQAeQBsAGUAPgA8AC8AaABlAGEAZAA+ADwAYgBvAGQAeQAgAHMAdAB5AGwAZQA9ACIAIABmAG8AbgB0AC0AZgBhAG0AaQBsAHkAOgAnAEEAcgBpAGEAbAAnADsAIABmAG8AbgB0AC0AcwBpAHoAZQA6ADkAcAB0ADsAIABmAG8AbgB0AC0AdwBlAGkAZwBoAHQAOgA0ADAAMAA7ACAAZgBvAG4AdAAtAHMAdAB5AGwAZQA6AG4AbwByAG0AYQBsADsAIgA+AAoAPABwACAAcwB0AHkAbABlAD0AIgAtAHEAdAAtAHAAYQByAGEAZwByAGEAcABoAC0AdAB5AHAAZQA6AGUAbQBwAHQAeQA7ACAAbQBhAHIAZwBpAG4ALQB0AG8AcAA6ADAAcAB4ADsAIABtAGEAcgBnAGkAbgAtAGIAbwB0AHQAbwBtADoAMABwAHgAOwAgAG0AYQByAGcAaQBuAC0AbABlAGYAdAA6ADAAcAB4ADsAIABtAGEAcgBnAGkAbgAtAHIAaQBnAGgAdAA6ADAAcAB4ADsAIAAtAHEAdAAtAGIAbABvAGMAawAtAGkAbgBkAGUAbgB0ADoAMAA7ACAAdABlAHgAdAAtAGkAbgBkAGUAbgB0ADoAMABwAHgAOwAiAD4APAAvAHAAPgA8AC8AYgBvAGQAeQA+ADwALwBoAHQAbQBsAD4=</property>
+   <property type="bool" name="connectable">AAAAAQAB</property>
+   <property type="bool" name="closed">AAAAAQAN</property>
+   <ext/>
+  </item>
+  <item category="Core" id="2" name="Edge">
+   <property type="QString" name="objectName">AAAACgD/////</property>
+   <property type="QGraphicsObject*" name="parent">AAAAAAH/////</property>
+   <property type="qreal" name="opacity">AAAABgA/8AAAAAAAAA==</property>
+   <property type="bool" name="enabled">AAAAAQAB</property>
+   <property type="bool" name="visible">AAAAAQAB</property>
+   <property type="QPointF" name="pos">AAAAGgAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="qreal" name="x">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="y">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="z">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="rotation">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="scale">AAAABgA/8AAAAAAAAA==</property>
+   <property type="QPointF" name="transformOriginPoint">AAAAGgAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QGraphicsEffect*" name="effect">AAAAAAH/////</property>
+   <property type="QDeclarativeListProperty&lt;QGraphicsObject>" name="children">AAAAAAH/////</property>
+   <property type="qreal" name="width">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="height">AAAABgAAAAAAAAAAAA==</property>
+   <property type="qreal" name="width">AAAABgBAWQAAAAAAAA==</property>
+   <property type="qreal" name="height">AAAABgBAWQAAAAAAAA==</property>
+   <property type="bool" name="resizable">AAAAAQAA</property>
+   <property type="bool" name="rotatable">AAAAAQAA</property>
+   <property type="bool" name="keepSizeRatio">AAAAAQAA</property>
+   <property type="QPen" name="pen">AAAATQAAoQA/8AAAAAAAAAEB//8AAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QPen" name="stroke">AAAATQAAUQBAGAAAAAAAAAEBKCgAAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA</property>
+   <property type="QBrush" name="brush">AAAAQgABAf//////////AAA/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AAAAAAAAA=</property>
+   <property type="QFont" name="font">AAAAQAAAAAAKAEEAcgBpAGEAbEAiAAAAAAAA/////wUBADIQAGQBAAAAAAAAAAA=</property>
+   <property type="bool" name="effectEnabled">AAAAAQAA</property>
+   <property type="QColor" name="textColor">AAAAQwAB//8AAAAAAAAAAA==</property>
+   <property type="Qt::AlignmentFlag" name="textAlign">AAAAAAH/////</property>
+   <property type="QString" name="label">AAAACgAAAAAA</property>
+   <property type="QPointF" name="startPoint">AAAAGgDAsuwAAAAAAMCzIgAAAAAA</property>
+   <property type="QPointF" name="endPoint">AAAAGgDAsgQAAAAAAMCyywAAAAAA</property>
+   <property type="int" name="startDirection">AAAAAgAAAAAD</property>
+   <property type="int" name="endDirection">AAAAAgAAAAAB</property>
+   <ext>
+    <ports>
+     <start port="3" node="0">1</start>
+     <end port="1" node="1">1</end>
+    </ports>
+    <arrows>
+     <startArrow>0</startArrow>
+     <endArrow>0</endArrow>
+    </arrows>
+    <edgeStyle category="Core" name="Orthogonal"/>
+    <anchors>
+     <anchor x="-4844" anchorX="false" y="-4898" anchorY="false">true</anchor>
+     <anchor x="-4728" anchorX="false" y="-4898" anchorY="false">true</anchor>
+     <anchor x="-4728" anchorX="false" y="-4811" anchorY="false">true</anchor>
+     <anchor x="-4612" anchorX="false" y="-4811" anchorY="false">true</anchor>
+     <anchor x="0" anchorX="false" y="0" anchorY="false">false</anchor>
+     <anchor x="0" anchorX="false" y="0" anchorY="false">false</anchor>
+    </anchors>
+   </ext>
+  </item>
+ </items>
+</template>

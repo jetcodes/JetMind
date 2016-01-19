@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CMindMapDtQuickTool</class>
+ <widget class="CDiagramTool" name="CMindMapDtQuickTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>391</width>
+    <height>38</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>quick</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#CMindMapDtQuickTool {
+background: transparent;
+border: none;
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>4</number>
+   </property>
+   <property name="leftMargin">
+    <number>4</number>
+   </property>
+   <property name="topMargin">
+    <number>4</number>
+   </property>
+   <property name="rightMargin">
+    <number>4</number>
+   </property>
+   <property name="bottomMargin">
+    <number>4</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="m_ctrlHolder" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QToolButton" name="m_btnNew">
+        <property name="toolTip">
+         <string>Insert Topic</string>
+        </property>
+        <property name="text">
+         <string>New</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-insert-next.png</normaloff>:/res/icons/node-insert-next.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="popupMode">
+         <enum>QToolButton::MenuButtonPopup</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="m_sepLineOne">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnShape">
+        <property name="toolTip">
+         <string>Change Shape</string>
+        </property>
+        <property name="text">
+         <string>Shape</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-shape.png</normaloff>:/res/icons/node-shape.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="popupMode">
+         <enum>QToolButton::InstantPopup</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnPath">
+        <property name="toolTip">
+         <string>Change Edge Style</string>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-edge.png</normaloff>:/res/icons/node-edge.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="popupMode">
+         <enum>QToolButton::InstantPopup</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnLayout">
+        <property name="toolTip">
+         <string>Change Layout</string>
+        </property>
+        <property name="text">
+         <string>Layout</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-layout-organization-down.png</normaloff>:/res/icons/node-layout-organization-down.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="popupMode">
+         <enum>QToolButton::InstantPopup</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnStyle">
+        <property name="toolTip">
+         <string>Change Style</string>
+        </property>
+        <property name="text">
+         <string>Style</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-style.png</normaloff>:/res/icons/node-style.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="popupMode">
+         <enum>QToolButton::InstantPopup</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnBoundary">
+        <property name="toolTip">
+         <string>Add Boundary</string>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-boundary.png</normaloff>:/res/icons/node-boundary.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="m_sepLineTwo">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnIcon">
+        <property name="toolTip">
+         <string>Add Icon or Pixmap</string>
+        </property>
+        <property name="text">
+         <string>Icon</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-icon.png</normaloff>:/res/icons/node-icon.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="popupMode">
+         <enum>QToolButton::InstantPopup</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnAttach">
+        <property name="toolTip">
+         <string>Attach File</string>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-attach.png</normaloff>:/res/icons/node-attach.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnLink">
+        <property name="toolTip">
+         <string>Edit Link</string>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-chain.png</normaloff>:/res/icons/node-chain.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="popupMode">
+         <enum>QToolButton::InstantPopup</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnNote">
+        <property name="toolTip">
+         <string>Edit Note</string>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/global-note.png</normaloff>:/res/icons/global-note.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="m_btnTask">
+        <property name="toolTip">
+         <string>Task Information</string>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../res/win/res.qrc">
+          <normaloff>:/res/icons/node-task.png</normaloff>:/res/icons/node-task.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <zorder>m_btnTask</zorder>
+     <zorder>m_btnIcon</zorder>
+     <zorder>m_sepLineOne</zorder>
+     <zorder>m_btnAttach</zorder>
+     <zorder>m_btnStyle</zorder>
+     <zorder>m_btnShape</zorder>
+     <zorder>m_btnPath</zorder>
+     <zorder>m_btnLink</zorder>
+     <zorder>m_btnBoundary</zorder>
+     <zorder>m_btnNote</zorder>
+     <zorder>m_btnNew</zorder>
+     <zorder>m_btnLayout</zorder>
+     <zorder>m_sepLineTwo</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CDiagramTool</class>
+   <extends>QWidget</extends>
+   <header>core/CDiagramWidget</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../res/win/res.qrc"/>
+  <include location="../../../res/win/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

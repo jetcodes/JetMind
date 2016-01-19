@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CHelpDialog</class>
+ <widget class="QWidget" name="CHelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+   <property name="spacing">
+    <number>4</number>
+   </property>
+   <property name="leftMargin">
+    <number>4</number>
+   </property>
+   <property name="topMargin">
+    <number>4</number>
+   </property>
+   <property name="rightMargin">
+    <number>4</number>
+   </property>
+   <property name="bottomMargin">
+    <number>4</number>
+   </property>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>536</width>
+        <height>1072</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="m_tips">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Welcome to JetMind !^-^&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Thanks for choosing JetMind, we believe you will love it. Please&lt;/p&gt;&lt;p&gt;feel free to contact us by sending email to the following email&lt;/p&gt;&lt;p&gt;address: support@jetmind.com&lt;/p&gt;&lt;p&gt;JetMind uses Fugue Icons (C) 2013 Yusuke Kamiyamane. All rights &lt;/p&gt;&lt;p&gt;reserved. &lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; font-style:italic; text-decoration: underline;&quot;&gt;Notes on JetMind:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1. One mindmap is constructed by multiple &amp;quot;Sheet&amp;quot;s, just like MS-&lt;/p&gt;&lt;p&gt;Excel. Sheet can be added or removed. This mechanism enable&lt;/p&gt;&lt;p&gt;users split big mindmap into small pictures.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;2. JetMind supports basic task assignment, so it is not only a mind&lt;/p&gt;&lt;p&gt;stormming tool, but also a task management tool.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;3. JetMind support brain storm and presentation mode, which enable&lt;/p&gt;&lt;p&gt;users focus on what they want to do.&lt;/p&gt;&lt;p&gt;More for you to explore, and we believe that it will be a happy trip.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; font-style:italic; text-decoration: underline;&quot;&gt;Shortcuts:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;1. Document Related&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;lt;CTRL+N&amp;gt; New file&lt;/p&gt;&lt;p&gt;&amp;lt;SHIFT+CTRL+N&amp;gt; New sheet&lt;/p&gt;&lt;p&gt;&amp;lt;CTRL+O&amp;gt; Open file&lt;/p&gt;&lt;p&gt;&amp;lt;CTRL+S&amp;gt; Save file&lt;/p&gt;&lt;p&gt;&amp;lt;CTRL+E&amp;gt; Export current mind map&lt;/p&gt;&lt;p&gt;&amp;lt;CTRL+P&amp;gt; Print current mind map&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;2. Mindmap Operations&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;2.1 Global&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&amp;lt;CTRL+Z&amp;gt; Undo the previous operation&lt;/p&gt;&lt;p&gt;&amp;lt;CTRL+R&amp;gt; Redo the canceled operation&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;2.2 With one topic selected&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;lt;ENTER&amp;gt; Add a sibling topic&lt;/p&gt;&lt;p&gt;&amp;lt;TAB&amp;gt; Add a child topic&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;2.3 With one or more topic selected&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;lt;CTRL+C&amp;gt; Copy selected topics into clipboard&lt;/p&gt;&lt;p&gt;&amp;lt;CTRL+V&amp;gt; Paste copied topics to be the child topics of the selected ones&lt;/p&gt;&lt;p&gt;&amp;lt;DELETE&amp;gt; Delete all selected topics (Child topics included)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

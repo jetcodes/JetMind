@@ -1,0 +1,459 @@
+/*****************************************************/
+/* General styling */
+
+/* line edit */
+QLineEdit, QSpinBox {
+background: white;
+border: 1px solid gray;
+border-radius: 4;
+padding: 0 8px;
+padding-left: 3px;
+}
+
+QLineEdit:disabled, QSpinBox:disabled {
+background: #dddddd;
+}
+
+QLineEdit:enabled:hover, QSpinBox:enabled:hover {
+border:2px solid rgba(22, 110, 200, 128);
+}
+
+QSpinBox::up-button, QSpinBox::down-button {
+background: transparent;
+width: 16px;
+}
+
+QSpinBox::up-button:hover, QSpinBox::down-button:hover {
+background: rgba(22, 110, 200, 128);
+}
+
+QSpinBox::up-arrow {
+/*image: url(:/res/icons/global-arrow-up.png);*/
+}
+
+QSpinBox::down-arrow {
+/*image: url(:/res/icons/global-arrow-down.png);*/
+}
+
+/* label */
+QLabel {
+color: rgb(0, 0, 0);
+font: 12pt "Arial";
+}
+
+QLabel#info {
+background: white;
+}
+
+/* menu */
+QMenu {
+border: 1px solid gray;
+border-radius: 4px;
+background: rgb(255,255,255);
+}
+QMenu::item {
+background-color: transparent;
+}
+QMenu::item:selected {
+color: black;
+background: rgba(22, 110, 200, 48);
+}
+
+/* tool button */
+QToolButton {
+border: none;
+}
+
+QToolButton:hover, QToolButton:checked:hover, QPushButton:hover {
+background: rgba(22, 110, 200, 48);
+border: 1px solid rgba(22, 110, 200, 80);
+}
+
+QToolButton:checked {
+background: rgba(22, 110, 200, 56);
+border: 1px solid rgba(22, 110, 200, 80);
+}
+
+QToolButton::menu-button {
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+width: 12px;
+}
+
+QToolButton[popupMode="1"] {
+border: 1px solid rgba(0, 0, 0, 0);
+min-width: 22px;
+padding-right: 14px;
+padding-left: 2px;
+}
+
+QToolButton[popupMode="1"]:hover, QToolButton[popupMode="1"]::menu-button:hover {
+border: 1px solid rgba(22, 110, 200, 80);
+}
+
+QToolButton[popupMode="1"]::pressed {
+background: rgba(22, 110, 200, 56);
+border: 1px solid rgba(22, 110, 200, 80);
+}
+
+QToolButton::menu-arrow {
+image: url(:/res/icons/global-arrow-down.png);
+}
+
+QToolButton::menu-arrow:open {
+top: 1px; left: 1px; /* shift it a bit */
+}
+
+QToolButton::menu-indicator {
+image: url(:/res/icons/global-arrow-transparent.png);
+}
+
+/* list view */
+QListWidget, QListView {
+border: none;
+background: white;
+}
+
+QListWidget:disabled, QListWidget:disabled {
+background: #dddddd;
+}
+
+QListWidget:enabled:hover, QListWidget:enabled:hover {
+border:2px solid rgba(22, 110, 200, 128);
+}
+
+QListView::item:alternate {
+background: #EEEEEE;
+}
+
+QListView::item:hover {
+background: rgba(22, 110, 200, 48);
+}
+
+/* scroll bar */
+QScrollBar:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #d1d1d1, stop:1 #e4e4e4);
+width: 12px;
+margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+background: #aaa;
+min-height: 12px;
+width: 8px;
+margin-left: 2px;
+margin-right: 2px;
+border: 1px solid #aaa;
+border-radius: 3px;
+}
+
+QScrollBar::add-line:vertical {
+border: 0px;
+height: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+border: 0px;
+height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+border: 0px;
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #d1d1d1, stop:1 #e4e4e4);
+}
+
+QScrollBar:horizontal {
+border-bottom: 0px solid #111;
+background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #d1d1d1, stop:1 #e4e4e4);
+height: 12px;
+margin: 0px;
+}
+
+QScrollBar::handle:horizontal {
+background: #aaa;
+min-width: 12px;
+height: 8px;
+margin-top: 2px;
+margin-bottom: 1px;
+border: 1px solid #aaa;
+border-radius: 3px;
+}
+
+QScrollBar::add-line:horizontal {
+border: 0px;
+width: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+border: 0px;
+width: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #d1d1d1, stop:1 #e4e4e4);
+}
+
+/* splitter */
+QSplitter::handle {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #c4c4c4, stop:1 #bfbfbf);
+}
+
+QSplitter::handle:horizontal {
+width: 3px;
+}
+
+QSplitter::handle:vertical {
+height: 3px;
+}
+
+QSplitter::handle:pressed {
+background: rgb(0, 0, 0, 128);
+}
+
+/* Slider */
+QSlider::groove:horizontal {
+border: 1px solid #999999;
+height: 8px; 
+background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
+margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+background: #ececec;
+border: 1px solid #999999;
+width: 18px;
+margin: -2px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+border-radius: 3px;
+}
+
+/* QGraphicsView */
+QGraphicsView {
+background: #E4E5E4; 
+}
+
+QGraphicsView QLineEdit {
+border: none;
+border-radius: 0;
+padding: 0px;
+}
+
+/***********************************************************/
+/* specified styling */
+
+/* about dialog */
+CAboutDialog QLabel#m_info, CAboutDialog QLabel#m_infoMac {
+background: white;
+padding: 5px;
+}
+
+CAboutDialog QTextBrowser {
+margin-left: 2px;
+}
+
+/* cool bar */
+CCoolBar {
+background: qlineargradient(x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #eeeeee, stop:1 #f5f5f5);
+border-bottom: 1px solid #999999;
+}
+
+/* Canvas band */
+CCanvasBand {
+border-top: 1px solid #999999;
+background: #ececec;
+}
+
+CCanvasBand QListWidget {
+border: 1px solid rgb(0,0,0,40);
+border-radius: 4px;
+background: white;
+}
+
+CCanvasBand QListWidget::item {
+border-right: 1px solid rgb(0,0,0,40);
+}
+
+CCanvasBand QLineEdit {
+border-radius: 0px;
+}
+
+/* abstract dialog */
+CUiAbstractDialog {
+background: qlineargradient(x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #eeeeee, stop:1 #f5f5f5);
+}
+
+CUiAbstractDialog QWidget#m_titleBar {
+background: url(:/res/texture/app-background-titlebar.png);
+}
+
+CUiAbstractDialog QWidget#m_titleBar QLabel {
+color: rgb(255,255,255);
+font: 12pt "Arial";
+font-weight: bold;
+}
+
+CUiAbstractDialog QToolButton {
+background-color: #ffffff;
+border-radius: 4px;
+border: 1px solid #aaaaaa;
+}
+
+CUiAbstractDialog QToolButton:hover, CUiAbstractDialog QToolButton:checked:hover {
+border-radius: 4px;
+}
+
+CUiAbstractDialog QWidget#m_titleBar QToolButton {
+background-color: #ffffff;
+border-radius: 4px;
+}
+CUiAbstractDialog QWidget#m_titleBar QToolButton:hover {
+background-color: rgba(22, 110, 200, 128);
+}
+
+/* Open file list */
+CUiOpenedFilePicker {
+background: white;
+border: 1px solid #666666;
+}
+
+CUiOpenedFilePicker QListView {
+background: rgba(0,0,0,0);
+border: 1px #666666 solid;
+show-decoration-selected: 1;
+}
+
+CUiOpenedFilePicker QListView::item {
+height: 32px;
+}
+
+CUiOpenedFilePicker QListView::item:alternate {
+background: #EEEEEE;
+}
+
+CUiOpenedFilePicker QListView::item:selected {
+border: 1px solid rgba(22, 110, 200, 120);
+}
+
+CUiOpenedFilePicker QListView::item:selected:!active {
+background: rgba(22, 110, 200, 80);
+}
+
+CUiOpenedFilePicker QListView::item:selected:active {
+background: rgba(22, 110, 200, 80);
+}
+
+CUiOpenedFilePicker QListView::item:hover {
+background: rgba(22, 110, 200, 48);
+}
+
+CUiOpenedFilePicker QPushButton {
+background: rgb(255,255,255);
+border: 0px;
+height: 24px;
+margin-left: 3px;
+margin-right: 3px;
+margin-bottom: 2px;
+margin-top: 2px;
+}
+
+/* Operation panel */
+CUiCanvasSettingPanel {
+background: qlineargradient(x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #f9f9f9, stop:1 #dddddd);
+}
+CUiCanvasSettingPanel QToolButton {
+background: transparent;
+border: none;
+}
+
+/* Message Box */
+CUiMessageBox QLabel#m_info {
+background: white;
+}
+
+CUiNodeStylePanel QLabel {
+padding: 2px;
+background: #eeeeee;
+border: 0px;
+}
+
+CUiNodeStylePanel QPushButton {
+border-top: 1px solid #aaaaaa;
+padding: 2px;
+text-align: left;
+font: 12pt "Arial";
+}
+
+CDiagramHostedWidget {
+background: transparent;
+}
+
+CDiagramHostedWidget QLabel {
+padding-left: 2px;
+font: 12px 'Arial';
+}
+
+CDiagramHostedWidget QPushButton {
+font: 12px 'Arial';
+background: rgba(22, 110, 200, 48);
+border: 0px;
+}
+
+CDiagramHostedWidget QToolButton, CDiagramHostedWidget QToolButton[popupMode="1"] {
+font: 12px 'Arial';
+border-radius: 4px;
+border: none;
+}
+
+CDiagramHostedWidget QToolButton:hover, CDiagramHostedWidget QToolButton[popupMode="1"]:hover {
+border-radius: 4px;
+}
+
+CDiagramHostedWidget QWidget#m_title QToolButton {
+border: none;
+border-radius: 0;
+}
+
+CDiagramHostedWidget QWidget#m_title QToolButton:hover {
+background: rgba(0, 0, 0, 98);
+}
+
+CDiagramHostedWidget QWidget#m_title QToolButton::menu-indicator {
+image: url(:/res/icons/global-arrow-transparent.png);
+}
+
+CMindMapToolPanel {
+background: transparent;
+}
+
+CMindMapToolPanel #m_collapsedView, CPresentationToolbar #m_holder {
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+border: 1px solid #ccc;
+background: #ffffff;
+padding: 4px;
+}
+
+CMindMapToolPanel #m_expandedView {
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border: 1px solid #ccc;
+background: #ffffff;
+padding: 4px;
+}
+
+CFileDialogEx #m_btnLocal, CFileDialogEx #m_btnGoogleDrive, CFileDialogEx #m_btnDropbox {
+border: none;
+border-radius: 0px;
+} 
+
+CFileDialogEx QWidget#placeHolder {
+background:white;
+}
+
+/* Mind Map related*/
+CMindMapUiNoteEditor QWidget#m_noteEditor {
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(251, 200, 107, 255), stop:1 rgba(255, 255, 255, 255));
+}

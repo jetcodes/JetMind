@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CMindMapDtGroupTool</class>
+ <widget class="QWidget" name="CMindMapDtGroupTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>76</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Boundary</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,1">
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QToolButton" name="m_btnBoundary">
+     <property name="toolTip">
+      <string>Add Boundary</string>
+     </property>
+     <property name="text">
+      <string>Boundary</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../res/mac/res.qrc">
+       <normaloff>:/res/icons/node-boundary.png</normaloff>:/res/icons/node-boundary.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonIconOnly</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="m_btnDropBoundary">
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="mindstorm.qrc">
+       <normaloff>:/mindstorm/icons/ui-delete.png</normaloff>:/mindstorm/icons/ui-delete.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../res/mac/res.qrc"/>
+  <include location="mindstorm.qrc"/>
+  <include location="../../res/mac/res.qrc"/>
+  <include location="mindstorm.qrc"/>
+ </resources>
+ <connections/>
+</ui>

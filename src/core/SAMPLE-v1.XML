@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<Diagram version="1.2">
+	<type>UML</type>
+	<author>koder</author>
+	<created>2011/2/20</created>
+	<updated>2011/2/21</updated>
+	<revision>3</revision>
+	<items>
+		<item type="node" category="Basic types" name="Rect">
+			<id>2</id>
+			<zValue>0</zValue>
+			<stackOrder>10</stackOrder>
+			<parent>1</parent>
+			<properties>
+				<property name="x" type="qreal">2</property>
+				<property name="y" type="qreal">2</property>
+				<property name="width" type="qreal">1</property>
+				<property name="height" type="qreal">2</property>
+				<property name="rotation" type="qreal">3</property>
+				<property name="gradient" type="bool">true</property>
+				<property name="pen" type="QPen">
+					<color>red</color>
+					<style>dash</style>
+					<weight>3</weight>
+				</property>
+				<property name="brush" type="QBrush">
+					<color>red</color>
+				</property>
+				<property name="text" type="QString">hello world</property>
+				<property name="font" type="QFont">
+					<family>arial</family>
+					<size>12</size>
+					<italic>false</italic>
+					<bold>true</bold>
+					<underline>true</underline>
+				</property>
+				<property name="textXPos" type="qreal">2</property>
+				<property name="textYPos" type="qreal">3</property>
+			</properties>
+			<ext>
+				
+			</ext>
+		</item>
+		<item type="edge">
+			<id>3</id>
+			<zValue>0</zValue>
+			<stackOrder>10</stackOrder>
+			<category>normal link</category>
+			<name>link</name>
+			<ports>
+				<startNode>
+					<nodeID>2</nodeID>
+					<side>3</side>
+				</startNode>
+				<endNode>
+					<nodeID>3</nodeID>
+					<side>2</side>
+				</endNode>
+			</ports>
+			<anchors>
+				<anchor>
+					<x anchored="true">2</x>
+					<y anchored="false">2</y>
+				</anchor>
+				<anchor>
+					<x anchored="true">2</x>
+					<y anchored="false">2</y>
+				</anchor>
+			</anchors>
+			<properties>
+				<property name="router" type="CRouter">rounded rect</property>
+				<property name="pen" type="QPen">
+					<color>red</color>
+					<style>dash</style>
+					<weight>3</weight>
+				</property>
+				<property name="text" type="QString">hello world</property>
+				<property name="font" type="QFont">
+					<family>arial</family>
+					<size>12</size>
+					<italic>false</italic>
+					<bold>true</bold>
+					<underline>true</underline>
+				</property>
+				<property name="textXPos" type="qreal">2</property>
+				<property name="textYPos" type="qreal">3</property>
+				<property name="startArrow" type="CArrowStyle">
+				</property>
+				<property name="endArrow" type="CArrowStyle">
+				</property>
+			</properties>
+		</item>
+	</items>
+</Diagram>

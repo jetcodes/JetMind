@@ -1,0 +1,34 @@
+#######
+How to generate a submit package for app store
+
+#1 sign the code
+codesign -s "3rd Party Mac Developer Application: Fuhan Chen" RecMind.app
+codesign -dvvv --entitlements :- RecMind.app/Contents/MacOS/RecMind
+
+or use the following single command
+codesign -s "3rd Party Mac Developer Application: Fuhan Chen" --entitlements RecMind.app/Contents/Entitlements.plist RecMind.app
+codesign -s "3rd Party Mac Developer Application: Fuhan Chen" --entitlements EasyMockup.app/Contents/Entitlements.plist EasyMockup.app
+
+#2 generate the installer
+productbuild --component RecMind.app/ /Applications --sign "3rd Party Mac Developer Installer: Fuhan Chen" RecMind-1.1.pkg
+productbuild --component EasyMockup.app/ /Applications --sign "3rd Party Mac Developer Installer: Fuhan Chen" EasyMockup-1.0.0.pkg
+
+#3 test the installer package (optional)
+sudo installer -store -pkg RecMind-1.1.pkg -target /
+sudo installer -store -pkg EasyMockup-1.0.0.pkg -target /
+
+#4 validate the entitlement list (optional)
+plutil Entitlements.plist
+
+#########
+How to handle svn changes
+
+#1 add all the files unversioned yet.
+for i in  $(svn st | grep \? | awk '{print $2}'); do svn add $i; done
+
+#2 remove all conflict files
+for i in  $(svn st | grep \! | awk '{print $2}'); do svn delete $i; done
+
+#######
+How to generate icns icons from png files
+
