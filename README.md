@@ -7,3 +7,5 @@ JetMind is an elegant tool for drawing beautiful, professional mind maps, organi
 
 #How to build
 JetMind supports both qtcreator and vs2008 build tool chains(vs2010/2012+ should also work). The building is quite straight forwards.
+
+#More details coming soon...
